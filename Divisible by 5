@@ -1,0 +1,7 @@
+N = int(input())
+div_5 = []
+for i in range(N):
+    M = int(input())
+    if M % 5 == 0:
+        div_5 += [M]
+print(div_5)
