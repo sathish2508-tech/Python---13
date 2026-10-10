@@ -1,0 +1,8 @@
+values = input().split()
+sum = 0
+lenght = len(values)
+for i in values:
+    integer = int(i)
+    sum += integer
+avg = round(sum/lenght,2)
+print(avg)
