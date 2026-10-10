@@ -1,0 +1,11 @@
+N = int(input())
+M = 2*(N)
+for i in range(1,M+1):
+    if i <= N:
+        space = N-i
+        hspace = 2*(i)-2
+        print(" " * space + "/" + " " * hspace + "\\")
+    else:
+        space = i-(M-N)-1
+        hspace = 2*(M-i)
+        print(" " * space + "\\" + " " * hspace + "/")
