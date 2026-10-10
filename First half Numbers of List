@@ -1,0 +1,9 @@
+num = input().split()
+integer = []
+lenght = len(num)
+half = lenght/2 + 0.1 
+value = round(half)
+for i in num:
+    convert = int(i)
+    integer += [convert]
+print(integer[:value])
