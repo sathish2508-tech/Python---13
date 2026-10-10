@@ -1,0 +1,8 @@
+word = input().lower().split()
+for char in word:
+    first = ord(char[0])
+    last = ord(char[-1])
+    if first == last:
+        print("True")
+    else:
+        print("False")
