@@ -1,0 +1,4 @@
+values = str(input())
+values = values.split()
+new_value = ",".join(values)
+print(new_value)
