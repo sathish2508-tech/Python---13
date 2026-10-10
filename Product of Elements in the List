@@ -1,0 +1,6 @@
+values = input().split()
+product = 1 
+for i in values:
+    convert = int(i)
+    product = product * convert
+print(product)
