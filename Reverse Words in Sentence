@@ -1,0 +1,5 @@
+sentaince = input().split()
+string = ""
+for char in sentaince:
+    string = char + " " + string
+print(string)
