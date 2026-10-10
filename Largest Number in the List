@@ -1,0 +1,7 @@
+values = input().split()
+large = -99999999999
+for i in values:
+    integer = int(i)
+    if integer > large:
+        large = integer
+print(large)
