@@ -1,0 +1,8 @@
+num = input().split()
+small = 9999999999
+for i in num:
+    value = int(i)
+    if value < small:
+        small = value
+        continue
+print(small)
