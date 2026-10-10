@@ -1,0 +1,5 @@
+string = input().split()
+N = int(input())
+word = string[-N:]
+list_of = word[::-1]
+print(list_of)
