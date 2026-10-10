@@ -1,0 +1,4 @@
+N = int(input())
+list_of = list(map(int, input().split()))
+half = (N + 1) // 2
+print(list_of[half:])
