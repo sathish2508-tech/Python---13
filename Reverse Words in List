@@ -1,0 +1,4 @@
+sentaince = input()
+word = sentaince.split()
+list_of = word[::-1]
+print(list_of)
