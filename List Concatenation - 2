@@ -1,0 +1,6 @@
+L = ["apple", "78", "970.03"]
+N = int(input())
+for i in range(N):
+    M = input()
+    L += [M]
+print(L)
