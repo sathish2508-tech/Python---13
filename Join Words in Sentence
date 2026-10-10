@@ -1,0 +1,4 @@
+string = input()
+combine = string.split()
+dot = ".".join(combine)
+print(dot)
