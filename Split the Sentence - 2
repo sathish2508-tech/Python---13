@@ -1,0 +1,4 @@
+string = input()
+value = string.split()
+for char in value:
+    print(char)
