@@ -1,0 +1,7 @@
+string = input().split()
+new_string = ""
+for char in string:
+    first_char = char[0]
+    new_string += first_char
+    value = ".".join(new_string)
+print(value)
