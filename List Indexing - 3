@@ -1,0 +1,9 @@
+N = int(input())
+M = int(input())
+list_num = [0] * N
+for i in range(N):
+    list_num[i] = int(input())
+for j in range(M):
+    ki = int(input())
+    if 0 <= ki < N:
+        print(list_num[ki])
