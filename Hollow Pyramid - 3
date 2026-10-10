@@ -1,0 +1,13 @@
+N = int(input())
+for i in range(N):
+    if i == 0:
+        print("|")
+    else:
+        space = i 
+        print("|" + " " * space + "\\")
+for i in range(N):
+    if i == N-1:
+        print("|")
+    else:
+        space = N-i-1
+        print("|" + " " * space + "/")
