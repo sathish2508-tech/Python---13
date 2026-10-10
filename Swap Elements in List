@@ -1,0 +1,7 @@
+L = [1, "two", 9, 5.09, "Three", -558, "four", -93.7, "six"]
+A = int(input())
+B = int(input())
+temp = L[A]
+L[A] = L[B]
+L[B] = temp
+print(L)
