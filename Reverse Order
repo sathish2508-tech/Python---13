@@ -1,0 +1,8 @@
+N = int(input())
+list_a = []
+for i in range(N):
+    M = input()
+    list_a = [M] + list_a
+list_b = list_a
+for i in range(N):
+    print(list_b[i])
