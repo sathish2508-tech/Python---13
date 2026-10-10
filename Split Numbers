@@ -1,0 +1,7 @@
+numbers = input()
+num = numbers.split()
+list_of = []
+for i in num:
+    value = int(i)
+    list_of += [value]
+print(list_of)
