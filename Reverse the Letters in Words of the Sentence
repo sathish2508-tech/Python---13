@@ -1,0 +1,5 @@
+sentaince = input().split()
+word = ""
+for char in sentaince:
+    word += char[::-1] + " "
+print(word)
