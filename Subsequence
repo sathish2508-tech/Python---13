@@ -1,0 +1,13 @@
+first_str = input()
+second_str = input()
+second_index = 0
+second_len = len(second_str)
+for char in first_str:
+    if char == second_str[second_index]:
+        second_index += 1 
+        if second_index == second_len:
+            break
+if second_index == second_len:
+    print("Yes")
+else:
+    print("No")
