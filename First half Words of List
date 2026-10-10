@@ -1,0 +1,5 @@
+string = input().split()
+lenght = len(string)
+float_of = lenght/2 + 0.1
+value = round(float_of)
+print(string[:value])
