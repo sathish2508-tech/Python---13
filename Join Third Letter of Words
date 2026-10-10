@@ -1,0 +1,7 @@
+sentaince = input().split()
+word = ""
+for char in sentaince:
+    third = char[2]
+    word += third
+    sep = ",".join(word)
+print(sep)
