@@ -1,0 +1,7 @@
+number = input().split()
+div_3 = []
+for num in number:
+    value = int(num)
+    if value % 3 == 0:
+        div_3 += [value]
+print(div_3)
