@@ -1,0 +1,8 @@
+def print_arg(string):
+    return string
+    # complete this function
+    print(string)
+string = input()
+word = print_arg(string)
+print(word)
+# call the print_arg function
