@@ -1,0 +1,7 @@
+N = int(input())
+list_values = []
+for i in range(N):
+    M = input()
+    list_values += [M]
+new_list = list_values[:3] + list_values[N-3:]
+print(new_list)
