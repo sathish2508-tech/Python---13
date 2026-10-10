@@ -1,0 +1,8 @@
+L = ["5", "eat", "9.80", "Water", "python", "-678", "7685.26", "-2.5", "sing"]
+S = input()
+condition = False
+for i in range(len(L)):
+    if L[i] == S:
+        condition = True
+print(condition)
+# Write your code here
