@@ -1,0 +1,6 @@
+N = int(input())
+list_N = []
+for i in range(N):
+    M = input()
+    list_N += [M]
+print(list_N)
