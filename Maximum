@@ -1,0 +1,7 @@
+N = int(input())
+big = 0
+for i in range(N):
+    M = int(input())
+    if big < M:
+        big = M 
+    print(big)
